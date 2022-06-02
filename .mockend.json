@@ -1,0 +1,14 @@
+{
+    "Restaurant": {
+        "name": { "string": {} },
+        "menus": {
+            "hasMany": "Menu"
+        }
+    },
+    "Menu": {
+        "title": { "string": {} },
+        "restaurant": {
+            "belongsTo": "Restaurant"
+        }
+    }
+}
