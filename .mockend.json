@@ -1,9 +1,11 @@
 {
     "Restaurant": {
         "name": { "loremWords": {"minLength": 8, "maxLength": 16} },
-        "menus": {
-            "title": { "loremWords": {"minLength": 8, "maxLength": 24} }
-        }
+        "menus": [
+            {
+                "title": { "loremWords": {"minLength": 8, "maxLength": 24} }
+            }
+        ]
     },
     "Menu": {
         "title": { "loremWords": {"minLength": 8, "maxLength": 24} },
