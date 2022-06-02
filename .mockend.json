@@ -1,12 +1,12 @@
 {
     "Restaurant": {
-        "name": { "loremWords": {"minLength": 2, "maxLength": 5} },
+        "name": { "loremWords": {"minLength": 8, "maxLength": 16} },
         "menus": {
             "hasMany": "Menu"
         }
     },
     "Menu": {
-        "title": { "loremWords": {"minLength": 2, "maxLength": 5} },
+        "title": { "loremWords": {"minLength": 8, "maxLength": 24} },
         "restaurant": {
             "belongsTo": "Restaurant"
         }
